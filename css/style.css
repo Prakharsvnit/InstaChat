@@ -1,0 +1,66 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 955px;
+    border:2px solid black;
+    margin:auto;
+    padding:33px;
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom:23px
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    width:150px;
+    height:100px;
+}
+
+.message{
+background-color:beige;
+width:24%;
+padding:10px;
+margin:17px 12px;
+border:2px solid black;
+border-radius:10px;
+}
+
+.left{
+float:left;
+clear: both;
+}
+
+.right{
+float:right;
+clear: both;
+}
+
+.center{
+    margin:0 auto;
+    margin-bottom: 23px;
+}
+
+#send-container{
+    text-align:center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#messageInp{
+    width:92%;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
+
+.btn{
+    cursor: pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height:34px;
+}
